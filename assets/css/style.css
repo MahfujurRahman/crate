@@ -72,6 +72,8 @@ a:hover { text-decoration: none }
     background-image: url(../img/beard.jpg)
 }
 
+
+/*head-menu-stard*/
 .section-padding {
     padding:72px 0px;
   }
@@ -113,6 +115,78 @@ a:hover { text-decoration: none }
   .head-menu li a:hover:before {
     width: 100%;
   }
+  
+.heading .head-menu li ul {
+  position: absolute;
+  top: 90px;
+  left: 44%;
+  width: 170px;
+  background-color: #303133;
+  text-align: left;
+  z-index: 1;
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s;
+  margin: 0;
+  padding: 0;
+    
+}
+.heading .head-menu li ul li {
+  display: block;
+  padding: 10px;
+}
+.heading .head-menu li ul li a{
+  margin: 0;
+  margin-left: 0px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 3px;
+  position: relative;
+}
+.heading .head-menu li:hover ul{
+    opacity: 1;
+    visibility: unset;
+}
+.head-menu li:hover ul ul{
+  left: 171px;
+  top: 40px;
+}
+.heading .head-menu li:hover ul ul{
+  opacity: -1;
+  visibility: hidden;
+}
+.heading .head-menu ul li:hover > ul{
+  opacity: 1;
+  visibility: unset;
+}
+.heading .head-menu li ul li .sub-menu-2{
+  top: 50px;
+  transition: .4s;
+}
+.heading .head-menu li ul li .sub-menu-1{
+  top: 0px;
+  transition: .4s;
+}
+.heading .head-menu li ul li a::before {
+  position: absolute;
+  height: 1px;
+  width: 0;
+  content: "";
+  background-color: #fff;
+  bottom: 0;
+  left: 0;
+  transition: .3s;
+}
+.heading .head-menu li ul li a:hover::before {
+  width: 100%;
+}
+/*head-menu-end*/
+
+
   .content {
     font-size: 17px;
     font-weight: 300;
