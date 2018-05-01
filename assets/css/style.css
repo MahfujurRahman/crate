@@ -26,6 +26,12 @@ h6 {
     margin: 0 0 15px;
     font-weight: 700;
 }
+body {
+  font-family: 'Hind', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  color: #303133;
+}
 a:hover { text-decoration: none }
 .singel-product{
     background-position: center;
@@ -141,23 +147,23 @@ a:hover { text-decoration: none }
   }
   .product-list .col-md-4:nth-child(1) .singel-product,
   .product-list .col-md-4:nth-child(9) .singel-product{
-      height: 450px;
+      height: 430px;
   }
   
   .product-list .col-md-4:nth-child(3) .singel-product,
   .product-list .col-md-4:nth-child(5) .singel-product,
   .product-list .col-md-4:nth-child(8) .singel-product{
-    height: 470px;
+    height: 450px;
   }
   .product-list .col-md-4:nth-child(2) .singel-product,
   .product-list .col-md-4:nth-child(4) .singel-product{
-    height: 270px;
+    height: 250px;
   }
   .product-list .col-md-4:nth-child(6) .singel-product{
     height: 286px;
   }
   .product-list .col-md-4:nth-child(7) .singel-product{
-    height: 570px;
+    height: 550px;
   }
   .product-list .col-md-4:nth-child(10) .singel-product{
     height: 280px;
@@ -216,4 +222,36 @@ a:hover { text-decoration: none }
 }
 .singel-product:hover .product-hover h3 span {
   padding: 5px;
+}
+.product-list{
+  transition-duration: .5s;
+}
+
+.copy-right {
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-top: 50px;
+  color: #767e87;
+}
+.copy-right a {
+  color: #767e87;
+  position: relative;
+}
+.copy-right a:hover::before {
+  width: 100%;
+}
+
+.copy-right a:before {
+  position: absolute;
+  height: 1px;
+  width: 0;
+  content: "";
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transition: .3s;
 }
