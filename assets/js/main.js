@@ -21,7 +21,11 @@
 
             var selector = $(this).attr('data-filter');
             $(".product-list").isotope({ 
-                filter: selector });
+                filter: selector,
+                resizable: true,
+                percentPosition: true,
+                itemSelector: '.mobil-size',
+             });
             });
 
 

@@ -301,6 +301,7 @@ a:hover { text-decoration: none }
   transition-duration: .5s;
 }
 
+/*footer-stard*/
 .copy-right {
   text-align: center;
   font-family: Poppins;
@@ -329,3 +330,4 @@ a:hover { text-decoration: none }
   background-color: #000;
   transition: .3s;
 }
+/*footer-end*/
