@@ -1,16 +1,33 @@
 /* Medium Layout: 1280px. */
 @media only screen and (min-width: 992px) and (max-width: 1200px) { 
-  
+    .form-name, .form-email, .form-subject {
+        width: 33.333%;
+    }
+    input[type="email"], input[type="text"]{
+        width: 100%;
+    }
     
 }
 /* Tablet Layout: 768px. */
 @media only screen and (min-width: 768px) and (max-width: 991px) { 
- 
+    .form-name, .form-email, .form-subject {
+        width: 100%;
+        padding: 0;
+    }
+    input[type="email"], input[type="text"]{
+        width: 100%;
+    }
     
 }
 /* Mobile Layout: 320px. */
 @media only screen and (max-width: 767px) { 
- 
+    .form-name, .form-email, .form-subject {
+        width: 100%;
+        padding: 0;
+    }
+    input[type="email"], input[type="text"]{
+        width: 100%;
+    }
     
 }
 /* Wide Mobile Layout: 480px. */
